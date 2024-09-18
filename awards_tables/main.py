@@ -8,9 +8,8 @@ seats =12
 staff= 29
 students= 84
 student= 15
-guests=student*2
+guests=student*1
 guest=students*2
 member=1
 
-
-print((staff+students+student+guest+member)/seats)
+print((staff+students+student+guest+guests+member)/seats)
