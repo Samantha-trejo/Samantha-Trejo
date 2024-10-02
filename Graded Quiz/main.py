@@ -18,5 +18,10 @@ Question = int(input("What is 10/2"))
 if Question == 5:
     score +=1
 
+Question = int(input("What is 12*5"))
+if Question == 60:
+    score +=1
 
-print("your score out of 4 is", score )
+
+
+print("your score out of 5 is", score )
