@@ -1,10 +1,14 @@
 #Samantha Trejo, Palindrome
 
-words = 1
+words = 
 
-word = int(input("Type in a palindrome"))
 
-if word : words
+
+
+
+word = (input("Type in a palindrome"))
+
+if word == words:
 else:
     print("This word isnt a palinndrome")
 
