@@ -1,15 +1,10 @@
 #Samantha Trejo, Palindrome
 
-words = 
+word = str(input("Type in a palindrome: "))
 
+reverse = str(word)[::-1]
 
-
-
-
-word = (input("Type in a palindrome"))
-
-if word == words:
+if word== reverse:
+    print("This is a palindrome")
 else:
-    print("This word isnt a palinndrome")
-
-
+    print("This word isnt a palindrome")
