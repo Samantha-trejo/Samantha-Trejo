@@ -1,12 +1,22 @@
 #Samantha Trejo, Average Grade
-#2
-first=91.45
-second=99.29
-third=80.10
-fourth=100.00
-sixth=65.03
-seventh=49.05
-eighth= 67.43
-classes= 7
 
-print((first+second+third+fourth+sixth+seventh+eighth)/classes)
+#Initialize an empty list to store the grades
+grades = []
+
+
+#Get the number of classes from the user
+num_classes = int(input("Enter the number of classes: "))
+
+
+#Loop to get the grades for each class
+for i in range(num_classes):
+    grade = float(input(f"Enter the grade for class {i + 1}: "))
+    grades.append(grade)
+
+
+#Calculate the average grade
+average_grade = sum(grades) / num_classes
+
+
+#Output the average grade
+print(f"Your average grade is: {average_grade:.2f}")
