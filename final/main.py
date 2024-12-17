@@ -15,12 +15,12 @@ locations = {
     "Entrance Hall": {"description": "A grand hall with a large staircase.", "items": ["map"], "enemy": None},
     "Library": {"description": "Shelves filled with dusty books.", "items": ["ancient book"], "enemy": None},
     "Kitchen": {"description": "A kitchen with rusty utensils.", "items": ["knife"], "enemy": None},
-    "Dining Room": {"description": "A long table with cobwebs.", "items": [], "enemy": "ghost"},
+    "Dining Room": {"description": "A long table with cobwebs, but sitting on the chair is a ghost.", "items": [], "enemy": "ghost"},
     "Bedroom": {"description": "A bedroom with a broken bed.", "items": ["key"], "enemy": None},
     "Bathroom": {"description": "A bathroom with a cracked mirror.", "items": [], "enemy": None},
-    "Attic": {"description": "A dark attic filled with old furniture.", "items": [], "enemy": "ghost"},
-    "Basement": {"description": "A cold, damp basement.", "items": ["artifact"], "enemy": "ghost"},
-    "Secret Room": {"description": "A hidden room behind a bookshelf.", "items": ["final artifact"], "enemy": "final boss"}
+    "Attic": {"description": "A dark attic filled with old furniture, but ikd furniture isnt the only thing in there..", "items": [], "enemy": "ghost"},
+    "Basement": {"description": "A cold, damp basement but there is a ghost in the dark corner.", "items": ["artifact"], "enemy": "ghost"},
+    "Secret Room": {"description": "A hidden room behind a bookshelf, but behind the bookshelf you find.. the final boss ", "items": ["final artifact"], "enemy": "final boss"}
 }
 
 # Functions
